@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    background-color: rgb(243, 239, 239);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    border-radius: 50px;
+
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin-top: -25px;
+    margin-bottom: 40px;
+}
+
+.text{
+    padding: 20px;
+}
+
+.images{
+    width: 50%;
+    background-color: rgb(108, 108, 238);
+    height: 90%;
+    border-radius: 50px;
+}
+
+.login{
+    background-color: rgb(243, 239, 239);
+    height: 50px;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    outline: none;
+    border: none;
+    background-color: rgb(243, 239, 239);
+}
+input::placeholder{
+    font-size: 20px;
+    color: black;
+}
+.password{
+    background-color: rgb(243, 239, 239);
+    height: 50px;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #ffff;
+    font-size: 20px
+}
+.fa{
+    background-color: black;
+    color: #ffff;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    align-self: center;
+}
+.fa .login{
+    background-color: rgb(192, 188, 188);
+}
+a{
+    color: #000000;
+}
+button:hover{
+    background-color: rgb(59, 58, 58);
+    cursor: pointer;
+    transition: .5s ease;
+}
